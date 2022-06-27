@@ -84,7 +84,7 @@ const Users_view = ({ users, onDelete, page, npage, ppage, onAdd, editUsers, fet
   }
 
   return (
-    <div className="ct_users_view">Users_view {"(Livevox exercise)"}
+    <div className="ct_users_view">Users_view {"(Livevox Exercise)"}
       <ListingInfo createUser={createUser} page={page} pastPage={ppage} nextPage={npage} />
       <Listing users={users} onDelete={onDelete} onEdit={editUser} fetchUser={fetchUser} />
       <div id="myNav" className="overlay">
